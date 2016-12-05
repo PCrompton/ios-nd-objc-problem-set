@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@class RPSTurn;
 @interface RPSGame : NSObject
 
 @property (nonatomic) RPSTurn *firstTurn;

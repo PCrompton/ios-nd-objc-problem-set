@@ -7,6 +7,7 @@
 //
 
 #import "RPSController.h"
+#import "RPS_Mixed-Swift.h"
 
 @implementation RPSController
 
@@ -14,7 +15,7 @@
     _game = game;
 }
 
--(void)throwDown:(Move) playersMove {
+-(void)throwDown:(int) playersMove {
     
     // Here the RPSTurn class generates the opponent's move
     RPSTurn *playersTurn = [[RPSTurn alloc]initWithMove:playersMove];
@@ -36,7 +37,7 @@
         NSString *loserString = [[game loser]  stringForMessage];
         NSString *resultsString = [self resultString: game];
         
-        NSString *wholeString =  [NSString stringWithFormat:@"%@ %@ %@ %@ %@", winnerString, @" defeats ", loserString, @".",  resultsString];
+        NSString *wholeString =  [NSString stringWithFormat:@"%@ %@ %@%@ %@", winnerString, @"defeats", loserString, @".",  resultsString];
         
         return wholeString;
         

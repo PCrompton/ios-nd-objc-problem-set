@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9604AAB81DF60D190084DE60 /* RPSTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9604AAB71DF60D190084DE60 /* RPSTurn.swift */; };
 		EDD4AB471CC03EEB00602B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB461CC03EEB00602B3E /* main.m */; };
 		EDD4AB521CC03F0000602B3E /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB4E1CC03F0000602B3E /* RPSGame.m */; };
 		EDD4AB531CC03F0000602B3E /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB501CC03F0000602B3E /* RPSController.m */; };
-		EDD4AB571CC03F4500602B3E /* RPSTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB561CC03F4500602B3E /* RPSTurn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9604AAB71DF60D190084DE60 /* RPSTurn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSTurn.swift; sourceTree = "<group>"; };
 		EDD4AB431CC03EEB00602B3E /* RPS_Mixed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPS_Mixed; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD4AB461CC03EEB00602B3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDD4AB4D1CC03F0000602B3E /* RPSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		EDD4AB4F1CC03F0000602B3E /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
 		EDD4AB501CC03F0000602B3E /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 		EDD4AB551CC03F1E00602B3E /* RPS_Mixed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPS_Mixed-Bridging-Header.h"; sourceTree = "<group>"; };
-		EDD4AB561CC03F4500602B3E /* RPSTurn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSTurn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				EDD4AB4E1CC03F0000602B3E /* RPSGame.m */,
 				EDD4AB4F1CC03F0000602B3E /* RPSController.h */,
 				EDD4AB501CC03F0000602B3E /* RPSController.m */,
-				EDD4AB561CC03F4500602B3E /* RPSTurn.swift */,
+				9604AAB71DF60D190084DE60 /* RPSTurn.swift */,
 				EDD4AB551CC03F1E00602B3E /* RPS_Mixed-Bridging-Header.h */,
 			);
 			path = RPS_Mixed;
@@ -136,7 +136,7 @@
 			files = (
 				EDD4AB471CC03EEB00602B3E /* main.m in Sources */,
 				EDD4AB521CC03F0000602B3E /* RPSGame.m in Sources */,
-				EDD4AB571CC03F4500602B3E /* RPSTurn.swift in Sources */,
+				9604AAB81DF60D190084DE60 /* RPSTurn.swift in Sources */,
 				EDD4AB531CC03F0000602B3E /* RPSController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "RPSGame.h"
-@class RPSTurn;
+
 @interface RPSController : NSObject
 
 @property (nonatomic) RPSGame *game;
 
--(void)throwDown:(int) playersMove;
+-(void)throwDown:(NSInteger) playersMove;
 -(NSString*)messageForGame:(RPSGame*)game;
 @end
 
